@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop — регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+
+    <header class="shop-header">
+        <h1>shop</h1>
+        <nav aria-label="Основная навигация">
+            <a href="catalog.html">КАТАЛОГ</a>
+            <a href="catalog.html">ПОИСК</a>
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="cart.html">КОРЗИНА</a>
+            <a href="profile.html">ПРОФИЛЬ</a>
+        </nav>
+    </header>
+
+    <main class="auth-main">
+        <section class="auth-card">
+            <p class="auth-eyebrow">ВАШ УХОД НАЧИНАЕТСЯ ЗДЕСЬ</p>
+            <h2>Создать аккаунт</h2>
+            <p class="auth-description">
+                Зарегистрируйтесь, чтобы пользоваться возможностями shop.
+            </p>
+
+            <form class="auth-form">
+                <label for="register-name">Имя</label>
+                <input id="register-name" type="text"
+                       placeholder="Ваше имя" required>
+
+                <label for="register-email">Электронная почта</label>
+                <input id="register-email" type="email"
+                       placeholder="example@mail.com" required>
+
+                <label for="register-password">Пароль</label>
+                <input id="register-password" type="password"
+                       placeholder="Придумайте пароль" required>
+
+                <label for="register-password-repeat">Повторите пароль</label>
+                <input id="register-password-repeat" type="password"
+                       placeholder="Введите пароль ещё раз" required>
+
+                <button type="submit" class="auth-button">
+                    ЗАРЕГИСТРИРОВАТЬСЯ
+                </button>
+            </form>
+
+            <p class="auth-switch">
+                Уже есть аккаунт?
+                <a href="login.html">Войти</a>
+            </p>
+
+            <a href="profile.html" class="auth-back">
+                Вернуться в профиль
+            </a>
+        </section>
+    </main>
+
+    <footer class="home-footer"></footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop — вход</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+
+    <header class="shop-header">
+        <h1>shop</h1>
+        <nav aria-label="Основная навигация">
+            <a href="catalog.html">КАТАЛОГ</a>
+            <a href="catalog.html">ПОИСК</a>
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="cart.html">КОРЗИНА</a>
+            <a href="profile.html">ПРОФИЛЬ</a>
+        </nav>
+    </header>
+
+    <main class="auth-main">
+        <section class="auth-card">
+            <p class="auth-eyebrow">РАДЫ ВАС ВИДЕТЬ</p>
+            <h2>Вход в аккаунт</h2>
+            <p class="auth-description">
+                Войдите, чтобы продолжить покупки в shop.
+            </p>
+
+            <form class="auth-form">
+                <label for="login-email">Электронная почта</label>
+                <input id="login-email" type="email"
+                       placeholder="example@mail.com" required>
+
+                <label for="login-password">Пароль</label>
+                <input id="login-password" type="password"
+                       placeholder="Введите пароль" required>
+
+                <button type="submit" class="auth-button">
+                    ВОЙТИ
+                </button>
+            </form>
+
+            <p class="auth-switch">
+                Нет аккаунта?
+                <a href="register.html">Зарегистрироваться</a>
+            </p>
+
+            <a href="profile.html" class="auth-back">
+                Вернуться в профиль
+            </a>
+        </section>
+    </main>
+
+    <footer class="home-footer"></footer>
+
+</body>
+</html>
