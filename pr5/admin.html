@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панель администратора — shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-page">
+
+    
+
+<header class="shop-header">
+    <h1>shop</h1>
+
+    <nav aria-label="Основная навигация">
+        <a href="catalog.html">КАТАЛОГ</a>
+        <a href="catalog.html">ПОИСК</a>
+        <a href="index.html">ГЛАВНАЯ</a>
+        <a href="cart.html">КОРЗИНА</a>
+        <a href="profile.html">ПРОФИЛЬ</a>
+    </nav>
+</header>
+
+
+
+    <main class="admin-main">
+        <div class="admin-welcome">
+            <p>Сотрудник: Анна</p>
+            <h2>Обзор магазина</h2>
+            <p>Добро пожаловать в панель управления магазином!</p>
+        </div>
+
+        <nav class="admin-nav" aria-label="Навигация администратора">
+            <a href="admin.html">Главная</a>
+            <a href="#products">Товары</a>
+            <a href="#orders">Заказы</a>
+            <a href="#customers">Клиенты</a>
+            <a href="#reviews">Отзывы</a>
+        </nav>
+
+        <section class="admin-section">
+            <h2>Основные показатели</h2>
+            <div class="admin-stats">
+                <article class="admin-stat">
+                    <p>Количество товаров</p>
+                    <strong>24</strong>
+                </article>
+                <article class="admin-stat">
+                    <p>Новые заказы</p>
+                    <strong>12</strong>
+                </article>
+                <article class="admin-stat">
+                    <p>Количество клиентов</p>
+                    <strong>156</strong>
+                </article>
+                <article class="admin-stat">
+                    <p>Количество отзывов</p>
+                    <strong>28</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="admin-section" id="products">
+            <h2>Товары</h2>
+            <table>
+                <caption>Список товаров магазина</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Название</th>
+                        <th scope="col">Цена</th>
+                        <th scope="col">Остаток</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Сыворотка для лица</td>
+                        <td>2777 ₽</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Тонер для лица</td>
+                        <td>2111 ₽</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Крем для лица</td>
+                        <td>2555 ₽</td>
+                        <td>18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="admin-section" id="orders">
+            <h2>Последние заказы</h2>
+            <table>
+                <caption>Заказы покупателей</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Номер заказа</th>
+                        <th scope="col">Клиент</th>
+                        <th scope="col">Сумма</th>
+                        <th scope="col">Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1024</td>
+                        <td>Анна Иванова</td>
+                        <td>5554 ₽</td>
+                        <td>В обработке</td>
+                    </tr>
+                    <tr>
+                        <td>1023</td>
+                        <td>Мария Петрова</td>
+                        <td>2777 ₽</td>
+                        <td>Выполнен</td>
+                    </tr>
+                    <tr>
+                        <td>1022</td>
+                        <td>Ольга Смирнова</td>
+                        <td>8331 ₽</td>
+                        <td>Новый</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="admin-section" id="customers">
+            <h2>Клиенты</h2>
+            <p>Раздел для просмотра информации о покупателях магазина.</p>
+        </section>
+
+        <section class="admin-section" id="reviews">
+            <h2>Отзывы</h2>
+            <p>Раздел для просмотра отзывов покупателей.</p>
+        </section>
+    </main>
+
+    <footer class="shop-footer">
+        <p>Панель управления интернет-магазином shop</p>
+    </footer>
+
+</body>
+</html>
